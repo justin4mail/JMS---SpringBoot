@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "jmk.activemq.broker.url",
+    "type": "java.lang.String",
+    "description": "A description for 'jmk.activemq.broker.url'"
+  },
+  {
+    "name": "jmk.activemq.broker.username",
+    "type": "java.lang.String",
+    "description": "A description for 'jmk.activemq.broker.username'"
+  },
+  {
+    "name": "jmk.activemq.broker.password",
+    "type": "java.lang.String",
+    "description": "A description for 'jmk.activemq.broker.password'"
+  },
+  {
+    "name": "jmk.activemq.broker.queue",
+    "type": "java.lang.String",
+    "description": "A description for 'jmk.activemq.broker.queue'"
+  },
+  {
+    "name": "jmk.activemq.queue",
+    "type": "java.lang.String",
+    "description": "A description for 'jmk.activemq.queue'"
+  }
+]}

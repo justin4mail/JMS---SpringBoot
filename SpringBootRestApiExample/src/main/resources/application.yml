@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  contextPath: /SpringBootRestApi
+  
+
+jmk.activemq.broker.url: tcp://localhost:61616
+jmk.activemq.broker.username: admin
+jmk.activemq.broker.password: admin
+jmk.activemq.queue: jmk-amq-queue
