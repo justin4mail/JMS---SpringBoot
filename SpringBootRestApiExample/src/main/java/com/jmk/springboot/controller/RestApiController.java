@@ -168,5 +168,21 @@ public class RestApiController {
 			}
 			return new ResponseEntity<List<Customer>>(customers, HttpStatus.OK);
 		}
+		
+		// ----------------------------- Downstream Call--------------
+		@RequestMapping(value = "/dcall/", method = RequestMethod.GET)
+		public ResponseEntity<List<Customer>> DCall() {
+			
+			userService.DownStreamCallWay2();
+			
+			List<Customer> customers = (List<Customer>) customersStorage.getAll();
+			
+			if (customers.isEmpty()) {
+				return new ResponseEntity<List<Customer>>(HttpStatus.NO_CONTENT);
+				// You many decide to return HttpStatus.NOT_FOUND
+			}
+			return new ResponseEntity<List<Customer>>(customers, HttpStatus.OK);
+		}
+
 
 }

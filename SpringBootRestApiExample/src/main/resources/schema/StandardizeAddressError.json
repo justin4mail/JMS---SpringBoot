@@ -1,0 +1,15 @@
+{
+	"StandardizeAddressErrors":{
+		"code": "string",
+		"details": {
+			
+		},
+		"id": "string",
+		"message": "string",
+		"timestamp": "string",
+		"type": "string",
+		"validationMessages": [
+			"string"
+		]
+	}
+}

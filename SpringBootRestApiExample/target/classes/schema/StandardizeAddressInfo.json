@@ -1,0 +1,53 @@
+{
+  "standardizeAddressesInfo": [ 
+    {
+      "geoCodedAddressInfo": {
+        "censusBlock": "string",
+        "censusTrack": "string",
+        "city": "string",
+        "closeMatch": true,
+        "dpv": "string",
+        "dpvCMRA": "string",
+        "dpvFootnote": "string",
+        "dwellingCode": "string",
+        "geocodePrecision": "string",
+        "geocodingPointLocation": "string",
+        "houseNumber": "string",
+        "houseNumberPrefix": "string",
+        "houseNumberSuffix": "string",
+        "latitude": "string",
+        "longitude": "string",
+        "matchMethod": "string",
+        "stateCode": "string",
+        "streetName": "string",
+        "streetPostDirection": "string",
+        "streetPreDirection": "string",
+        "streetSide": "string",
+        "streetSuffix": "string",
+        "unitTypes": [
+          {
+            "unitType": "string",
+            "unitValue": "string"
+          }
+          ],
+        "urbanization": "string",
+        "zip4": "string",
+        "zip5": "string"
+      },
+      "geographyInfo": {
+        "countyName": "string",
+        "fipsCode": "string",
+        "links": [
+          {
+            "href": "string",
+            "rel": "string",
+            "templated": true
+          }
+          ],
+        "minorCivilDivision": "string",
+        "placeName": "string",
+        "vertexCode": "string"
+      }
+    }
+    ]
+}

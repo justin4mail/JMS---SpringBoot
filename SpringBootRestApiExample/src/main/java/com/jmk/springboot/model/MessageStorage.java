@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
  
 public class MessageStorage {
-	private List<Customer> customers = new ArrayList<>();
+	private List<Customer> customers = new ArrayList<Customer>();
 	
 	public void add(Customer customer) {
 		customers.add(customer);

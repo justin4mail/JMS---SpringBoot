@@ -3,6 +3,7 @@ package com.jmk.springboot.service;
 
 import java.util.List;
 
+import com.jmk.springboot.model.Customer;
 import com.jmk.springboot.model.User;
 
 public interface UserService {
@@ -22,5 +23,8 @@ public interface UserService {
 	void deleteAllUsers();
 	
 	boolean isUserExist(User user);
-	
+
+	boolean DownStreamCall();
+	boolean DownStreamCallWay2();
+
 }

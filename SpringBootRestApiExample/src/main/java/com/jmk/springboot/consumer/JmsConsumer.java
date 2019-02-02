@@ -12,9 +12,9 @@ public class JmsConsumer {
 	@Autowired
 	private MessageStorage customerStorage;
 	
-	@JmsListener(destination = "${jmk.activemq.queue}", containerFactory="jsaFactory")
+	/*@JmsListener(destination = "${jmk.activemq.queue}", containerFactory="jsaFactory")
 	public void receive(Customer customer){
 		//System.out.println("Recieved Message: " + customer);
 		customerStorage.add(customer);
-	}
+	}*/
 }
